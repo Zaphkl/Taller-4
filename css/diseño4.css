@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+.h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.plan {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f4b400;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+button {
+    background: #f4b400;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background: #d89e00;
+}
+
+.highlighted {
+    background: #26a69a;
+    color: white;
+}
+.highlighted .price {
+    color: yellow;
+}
+
+.highlighted button {
+    background: yellow;
+    color: black;
+}
+
+.highlighted button:hover {
+    background: #d89e00;
+}
